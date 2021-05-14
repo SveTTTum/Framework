@@ -19,11 +19,7 @@ public class ICanWinTaskTest {
 
     @Test(description = " input new paste, choose Expiration - 10 second, input name")
     public void setDataOnPage() {
-        page = new PastebinHomePage(driver)
-                .openPage()
-                .inputNewPaste("Hello from WebDriver")
-                .setExpiration()
-                .inputName("helloweb");
+
     }
 
     @AfterMethod(alwaysRun = true)
